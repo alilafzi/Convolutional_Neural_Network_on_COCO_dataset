@@ -15,10 +15,13 @@ The following image shows the comparison between the training loss of the aforem
 This script also saves all the learnable parameters of the trained networks as separate .pth files. <br>
 
 ## Testing
-"hw04_validation.py" works similar to the training sript in terms of the parser arguments. It loads each of the saved trained networks from the previous task and plots the confusion matrix on the test set for each of them. <br>
+"hw04_validation.py" works similar to the training sript in terms of the parser arguments. It loads each of the saved trained networks from the previous task and plots the confusion matrix on the test set for each of them. <br><br>
 <img src="https://github.com/alilafzi/Convolutional_Neural_Network_on_COCO_dataset/blob/main/images/net1_confusion_matrix.jpg" height = 400 width = 400> <br>
+Net 1 confusion matrix <br><br>
 <img src="https://github.com/alilafzi/Convolutional_Neural_Network_on_COCO_dataset/blob/main/images/net2_confusion_matrix.jpg" height = 400 width = 400> <br>
+Net 2 confusion matrix <br><br>
 <img src="https://github.com/alilafzi/Convolutional_Neural_Network_on_COCO_dataset/blob/main/images/net3_confusion_matrix.jpg" height = 400 width = 400> <br>
+Net 3 confusion matrix <br>
 
 ## Dataset:
 Class list: ["airplane", "boat", "cat", "dog", "elephant", "giraffe", "horse", "refrigerator", "train", "truck"] <br>
