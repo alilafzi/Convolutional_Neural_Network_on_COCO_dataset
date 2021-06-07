@@ -1,6 +1,6 @@
 # Convolutional_Neural_Network_on_COCO_dataset
 
-## COCO images downloader:
+## COCO images downloader
 The python script "hw04_coco_downloader.py" downloads images from the competition Microsoft COCO dataset (based on each of the available giant annotation files) and resizes them to 64x64 pixels. This script has a parser argument that gets the path to the main directory of COCO images, class list, the number of images in each class, and the path to the folder containing the desired annotation JSON file as its inputs while calling the script in the terminal command. <br>
 
 ## Training
