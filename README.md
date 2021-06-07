@@ -4,7 +4,7 @@
 The python script "hw04_coco_downloader.py" downloads images from the competition Microsoft COCO dataset (based on each of the available giant annotation files) and resizes them to 64x64 pixels. This script has a parser argument that gets the path to the main directory of COCO images, class list, the number of images in each class, and the path to the folder containing the desired annotation JSON file as its inputs while calling the script in the terminal command. <br>
 
 ## Training
-"hw04_training.py" runs by providing the path to the main directory containing the COCO images and class list. It also contains the necessary dataloader for feeding the downloaded images in the previous step and 3 types of networks to train them as described below: <br>
+"hw04_training.py" runs by providing the path to the main directory containing the COCO images and class list as its parser arguments. It also contains the necessary dataloader for feeding the downloaded images in the previous step and 3 types of networks to train them as described below: <br>
 Net 1: a single convolutional layer followed by ReLU activation and max pooling and a single fully connected hidden layer before the output layer. <br>
 Net 2: two convolutional layers, each followed by ReLU activation and max pooling and a single fully connected hidden layer before the output layer. <br>
 Net 3: similar to Net 2 with the difference of having padding of 1 in the first conv. layer. <br>
