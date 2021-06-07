@@ -7,7 +7,7 @@ The python script "hw04_coco_downloader.py" downloads images from the competitio
 "hw04_training.py" runs by providing the path to the main directory containing the COCO images and class list as its parser arguments. It also contains the necessary dataloader for feeding the downloaded images in the previous step and 3 types of networks to train them as described below: <br>
 Net 1: a single convolutional layer followed by ReLU activation and max pooling and a single fully connected hidden layer before the output layer. <br>
 Net 2: two convolutional layers, each followed by ReLU activation and max pooling and a single fully connected hidden layer before the output layer. <br>
-Net 3: similar to Net 2 with the difference of having padding of 1 in the first conv. layer. <br>
+Net 3: similar to Net 2 with the difference of having a padding of 1 in the first conv. layer. <br>
 
 The following image shows the comparison between the training loss of the aforementioned networks at every 500 iterations: <br>
 <img src="https://github.com/alilafzi/Convolutional_Neural_Network_on_COCO_dataset/blob/main/images/train_loss.jpg" height = 400 width = 400> <br>
